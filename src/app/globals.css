@@ -31,3 +31,16 @@ body {
     text-wrap: balance;
   }
 }
+/* styles/globals.css or any CSS module you prefer */
+@keyframes spinOnce {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-once {
+  animation: spinOnce 1s ease-in-out;
+}
